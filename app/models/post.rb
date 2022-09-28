@@ -20,15 +20,4 @@ class Post < ActiveRecord::Base
     end
   end
 
-  
-#   def non_clickbait
-#     if title != (/Won\'t Believe/i || /Secret/i || /Top [0-9]*/i || /Guess/i)
-#     # unless title.include?(/Won\'t Believe/i || /Secret/i || /Top [0-9]*/i || /Guess/i)
-#     # validates :title, inclusion: { in: %w('Won\'t Believe' 'Secret' 'Top [number]' 'Guess') }
-#     # validates :title, presence: true
-#       errors.add(:title, "Won\'t Believe || Secret || Top[number] || Guess")
-#     end
-#   end
-
-
 end
